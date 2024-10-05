@@ -122,4 +122,4 @@ Widely used in sectors that handle substantial volumes of sensitive information,
 This document provides a detailed overview of the attributes contained within the  structure for the bond document. The bond represents a significant financial instrument
 aimed at financing projects that promote environmental sustainability, social equity, and  governance excellence.
 
-[Information Architecture and Data Modeling](<../docs/Information Architecture - Data Model of a Government Bond.md>)
+[Information Architecture and Data Modeling](docs/Information Architecture - Data Model of a Government Bond.md)
