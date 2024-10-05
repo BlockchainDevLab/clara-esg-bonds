@@ -1,14 +1,30 @@
 # Clara ESG: Tokenized Green Bonds with Built-in Impact Ratings
 
-# X
-## Architecture 
+## Architecture
 
-# ![](/home/valter/PROJETOS/G20-TECHSPRINT/2024-10-03_18-16.png)
-
+# ![](/docs/diagram-2024-10-04-231000.png)
 
 This diagram  represents the architecture of a **Decentralized architecture** for managing bonds and project data, focusing on data collection, validation, immutability, and transparency. It illustrates the different layers and their interactions in this decentralized system.
 
 ---
+
+### **Flow of Data and Interactions**
+
+1. **Project Data Submission:**  
+   Data from project management systems, IoT devices, and external APIs are transmitted to the validation nodes through the communication gateways.
+   
+2. **Data Validation:**  
+   The validation nodes verify the authenticity of the data before it is passed to the smart contracts for recording and rating calculations.
+   
+3. **Data Storage and Hashing:**  
+   Once validated, the data is stored on the blockchain and decentralized storage (IPFS/Filecoin). Hashes are generated to ensure data integrity.
+   
+4. **User and Auditor Interaction:**  
+   Bond managers can monitor the project performance in real time via the dashboard, while external auditors can access data through public APIs to ensure transparency.
+
+5. **Security and Evidence Validation:**  
+   Digital signatures, encryption, and immutable audit trails ensure that all data is securely stored, and geographical evidence is submitted to validate project authenticity.
+
 
 #### **1. Data Collector Layer**
 This layer focuses on gathering data from various systems and devices.
@@ -64,26 +80,7 @@ Ensures the integrity and security of the system through cryptographic methods.
 
 ---
 
-### **Flow of Data and Interactions**
-
-1. **Project Data Submission:**  
-   Data from project management systems, IoT devices, and external APIs are transmitted to the validation nodes through the communication gateways.
-   
-2. **Data Validation:**  
-   The validation nodes verify the authenticity of the data before it is passed to the smart contracts for recording and rating calculations.
-   
-3. **Data Storage and Hashing:**  
-   Once validated, the data is stored on the blockchain and decentralized storage (IPFS/Filecoin). Hashes are generated to ensure data integrity.
-   
-4. **User and Auditor Interaction:**  
-   Bond managers can monitor the project performance in real time via the dashboard, while external auditors can access data through public APIs to ensure transparency.
-
-5. **Security and Evidence Validation:**  
-   Digital signatures, encryption, and immutable audit trails ensure that all data is securely stored, and geographical evidence is submitted to validate project authenticity.
-# X
-
-
-### **Security and Interoperability**
+## **Security and Interoperability**
 
 The implemented security architecture aims to promote interoperability by providing specific information for the securities, tailored to the needs of each agent participating in the process. This approach ensures that only authorized agents have the ability to modify the data defined in the metadata associated with each type of security.
 
@@ -101,7 +98,7 @@ This structure provides a robust level of control and security, ensuring that on
 
 The security architecture is designed in a centralized manner, shared across various smart contracts, eliminating the need for updates in all contracts related to security roles. This approach optimizes the efficiency and maintenance of the system, ensuring that security policies and controls are applied uniformly and consistently throughout the network of contracts. By centralizing security management in a shared structure, we reduce operational complexity and promote a more cohesive and easy-to-maintain implementation.
 
-![Security Architecture:](/docs/security.png)
+![Security Architecture:](./docs/BONDS-PROJECT.jpg)
 
 **Hardware Security Module (HSM)**
 
@@ -114,3 +111,15 @@ Widely used in sectors that handle substantial volumes of sensitive information,
 * **Regulatory Compliance:** They help organizations comply with data security regulations, such as PCI DSS and HIPAA.
 
 * **Reduced Risk of Data Breaches:** They significantly reduce the risk of data breaches and cyberattacks.
+
+
+
+
+## Information Architecture and Data Modeling
+
+![Security Architecture:](./docs/BONDS-ROOT.png)
+
+This document provides a detailed overview of the attributes contained within the  structure for the bond document. The bond represents a significant financial instrument
+aimed at financing projects that promote environmental sustainability, social equity, and  governance excellence.
+
+[Information Architecture and Data Modeling](<../docs/Information Architecture - Data Model of a Government Bond.md>)
